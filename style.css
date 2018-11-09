@@ -6,8 +6,18 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100vw;
+  height: 100vh;
 }
 
 .count-down {
+background-color: aqua;
+width: 40vw;
+height: 40vh;
+}
 
+
+.counter {
+  background-color: aquamarine;
+  border: 3px solid rgb(252, 38, 248);
 }
