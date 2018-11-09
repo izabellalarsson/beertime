@@ -41,16 +41,12 @@ form {
   margin: 50px;
 }
 
-/* .no-button.active {
-transform: translateX(150px);
-} */
-
 .yes-button {
   width: 200px;
   height: 100px;
   background-color: lawngreen;
   transition: 0.5s;
-  /* z-index: 1; */
+  z-index: 1;
   font-size: 54px;
   font-weight: bold;
 }
@@ -72,13 +68,9 @@ transform: translateX(150px);
   background-size: cover;
   width: 500px;
   height: 500px;
-  z-index: 1;
+  z-index: 2;
 }
 
 h2.move {
   transform: translateY(-70px);
 }
-
-/* .no-button:hover {
-  transform: translateX(150px);
-} */
