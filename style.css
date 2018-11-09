@@ -103,3 +103,8 @@ h2.move {
   background-color: dodgerblue;
   opacity: 0.8;
 }
+
+/* säger till att den bara fungera på desktop */
+@media screen and (min-width: 768) {
+
+}
