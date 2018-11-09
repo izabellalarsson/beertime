@@ -10,30 +10,11 @@ canvas.addEventListener('mousemove', (e) => {
 })
 
 
-
-
-
-
-let test = false;
 noButton.addEventListener('mouseover', (e) => {
-<<<<<<< HEAD
-
-  // let buttonY = e.clientY;
-  // let buttonX = e.clientX;
-  // let buttonCords = buttonX + buttonY;
-  e.target.style.transform = `${test ? 'translateX(-150px)' : 'translateX(150px)'}`;
-
-  test = !test;
-e.target.style.width= '10px';
-})
-
-if (canvas === noButton) {
-}
-=======
   for(let i = 0; i < e; i++){
      Math.random();
   }
-  return (e);
+  return (k);
 })
 
 // noButton.addEventListener('mouseover', (e) => {
@@ -46,4 +27,3 @@ if (canvas === noButton) {
 //   noButton.target.style.transform = 'translateX(150px)';
 //   noButton.target.style.width= '10px';
 // }
->>>>>>> df5a278b2bff3b307b739657ea9eeae879b8d9a7
