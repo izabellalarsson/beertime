@@ -19,6 +19,10 @@ body {
   transition: 0.5s;
 }
 
+.no-button.active {
+transform: translateX(150px);
+}
+
 .yes-button {
   width: 160px;
   height: 50px;
@@ -31,6 +35,6 @@ body {
   height: 80px;
 }
 
-.no-button:hover {
+/* .no-button:hover {
   transform: translateX(150px);
-}
+} */
