@@ -8,16 +8,37 @@ body {
   align-items: center;
   width: 100vw;
   height: 100vh;
+  font-family: 'Helvetica';
   flex-direction: column;
 }
 
+h2 {
+  font-size: 78px;
+  transition: 0.5s;
+}
 
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.count-down {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
 .no-button {
-  width: 100px;
-  height: 30px;
+  width: 150px;
+  height: 50px;
   background-color: red;
   transition: .04s;
+  font-size: 16px;
+  font-weight: lighter;
+  margin: 50px;
 }
 
 /* .no-button.active {
@@ -29,12 +50,33 @@ transform: translateX(150px);
   height: 100px;
   background-color: lawngreen;
   transition: 0.5s;
-  z-index: 1;
+  /* z-index: 1; */
+  font-size: 54px;
+  font-weight: bold;
 }
 
 .yes-button:hover {
   width: 300px;
   height: 150px;
+}
+
+.gif {
+}
+
+.gif.active {
+  position: fixed;
+  justify-content: center;
+  background-image: url(https://media.giphy.com/media/6oB3X3W6MYM3C/giphy.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 500px;
+  height: 500px;
+  z-index: 1;
+}
+
+h2.move {
+  transform: translateY(-70px);
 }
 
 /* .no-button:hover {
