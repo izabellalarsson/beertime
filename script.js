@@ -13,19 +13,21 @@ canvas.addEventListener('mousemove', (e) => {
 
 
 
-let test = false;
+// let test = false;
 noButton.addEventListener('mouseover', (e) => {
+  let randomY = Math.floor(Math.random(window.innerHeight) * 100);
+  let randomX = Math.floor(Math.random(window.innerWidth) * 100);
 
+
+  // console.log(random);
   // let buttonY = e.clientY;
   // let buttonX = e.clientX;
   // let buttonCords = buttonX + buttonY;
-  e.target.style.transform = `'transform: translateX(${random}px) '`
-  e.target.style.transform = `'transform: translateY(${random}px) '`
-  e.target.style.transform = `${test ? 'translateX(-150px)' : 'translateX(150px)'}`;
+  console.log(e.target.style.transform = 'translateX(' + randomX+'px)' + 'translateY(' + randomY+'px)');
+  // console.log(e.target.style.transform = );
 
-  test = !test;
-e.target.style.width= '10px';
+  // e.target.style.transform = `'transform: translateY(${randomY}px) '`
+  // e.target.style.transform = `${test ? 'translateX(-150px)' : 'translateX(150px)'}` + `${test ? 'translateY(-150px)' : 'translateY(150px)'}`;
+
+  // test = !test;
 })
-
-if (canvas === noButton) {
-}
