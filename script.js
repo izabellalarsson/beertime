@@ -1,6 +1,6 @@
 'use strict'
 
-const noButton = document.querySelector('.no-button');
+const noButton2 = document.querySelector('.no-button');
 const canvas = document.querySelector('body')
 
 canvas.addEventListener('mousemove', (e) => {
@@ -14,9 +14,9 @@ canvas.addEventListener('mousemove', (e) => {
 
 
 // let test = false;
-noButton.addEventListener('mouseover', (e) => {
-  let randomY = Math.floor(Math.random(window.innerHeight + 'px') * Math.floor(e));
-  let randomX = Math.floor(Math.random() * Math.floor(window.innerWidth + 'px'));
+noButton2.addEventListener('mouseover', (e) => {
+  let randomY = Math.floor(Math.random(window.innerHeight) * 400 - 300);
+  let randomX = Math.floor(Math.random(window.innerWidth) * 300 - 200);
   let random = randomX + randomY;
 
 
