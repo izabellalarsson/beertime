@@ -4,7 +4,6 @@
 
 body {
   display: flex;
-  justify-content: center;
   align-items: center;
   width: 100vw;
   height: 100vh;
@@ -54,6 +53,7 @@ form {
 .yes-button:hover {
   width: 300px;
   height: 150px;
+  cursor: pointer;
 }
 
 .gif {
@@ -73,4 +73,33 @@ form {
 
 h2.move {
   transform: translateY(-70px);
+}
+
+.reset {
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+  background-color: dodgerblue;
+  border: dodgerblue;
+  border-radius: 20px;
+  box-shadow: 3px 3px 10px black;
+}
+
+.reset-box {
+  align-self: flex-start;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.reset:hover {
+  cursor: pointer;
+  background-color: dodgerblue;
+  opacity: 0.8;
 }
