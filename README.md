@@ -9,7 +9,7 @@
 * We don't take no for an answer.
 
 ## How to visit the page
-* Click here: [beertime-site](https://izabellalarsson.github.io/beertime/){:target="_blank"}
+* Click here: [beertime-site](https://izabellalarsson.github.io/beertime/)
 
 ## Made by "Öl-tjejerna" -2
 * Izabella Larsson
