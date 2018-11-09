@@ -15,8 +15,9 @@ canvas.addEventListener('mousemove', (e) => {
 
 // let test = false;
 noButton.addEventListener('mouseover', (e) => {
-  let randomY = Math.floor(Math.random(window.innerHeight) * 100);
-  let randomX = Math.floor(Math.random(window.innerWidth) * 100);
+  let randomY = Math.floor(Math.random(window.innerHeight) *  (window.innerHeight - 100 + 'px') - 100 + 'px');
+  let randomX = Math.floor(Math.random(window.innerWidth) * (window.innerWidth - 100 + 'px') - 100 + 'px');
+  // let random = randomX + randomY;
 
 
   // console.log(random);
@@ -27,7 +28,7 @@ noButton.addEventListener('mouseover', (e) => {
   // console.log(e.target.style.transform = );
 
   // e.target.style.transform = `'transform: translateY(${randomY}px) '`
-  // e.target.style.transform = `${test ? 'translateX(-150px)' : 'translateX(150px)'}` + `${test ? 'translateY(-150px)' : 'translateY(150px)'}`;
+  e.target.style.transform = `${random ? 'translateX(' + randomX + 'px)' : 'translateX(' + randomX + 'px)'}` + `${random ? 'translateY(' + randomY + 'px)' : 'translateY(' + randomY + 'px)'}`;
 
   // test = !test;
 })
