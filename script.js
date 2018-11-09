@@ -10,13 +10,21 @@ canvas.addEventListener('mousemove', (e) => {
 })
 
 
+
+
+
+
+let test = false;
 noButton.addEventListener('mouseover', (e) => {
-  let buttonY = e.clientY;
-  let buttonX = e.clientX;
-  let buttonCords = buttonX + buttonY;
+
+  // let buttonY = e.clientY;
+  // let buttonX = e.clientX;
+  // let buttonCords = buttonX + buttonY;
+  e.target.style.transform = `${test ? 'translateX(-150px)' : 'translateX(150px)'}`;
+
+  test = !test;
+e.target.style.width= '10px';
 })
 
 if (canvas === noButton) {
-  noButton.target.style.transform = 'translateX(150px)';
-  noButton.target.style.width= '10px';
 }
