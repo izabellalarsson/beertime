@@ -14,6 +14,4 @@ noButton2.addEventListener('mouseover', (e) => {
   let randomX = Math.floor(Math.random(window.innerWidth) * 300 - 200);
 
   e.target.style.transform = 'translateX(' + randomX+'px)' + 'translateY(' + randomY+'px)';
-
-  e.target.style.transform = `${random ? 'translateX(' + randomX + 'px)' : 'translateX(' + randomX + 'px)'}` + `${random ? 'translateY(' + randomY + 'px)' : 'translateY(' + randomY + 'px)'}`;
 })
