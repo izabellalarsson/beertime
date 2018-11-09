@@ -15,9 +15,8 @@ canvas.addEventListener('mousemove', (e) => {
 
 // let test = false;
 noButton.addEventListener('mouseover', (e) => {
-  let randomY = Math.floor(Math.random(window.innerHeight) * 100);
-  let randomX = Math.floor(Math.random(window.innerWidth) * 100);
-
+  let randomY = Math.floor(Math.random(window.innerHeight) * 300);
+  let randomX = Math.floor(Math.random(window.innerWidth) * 200);
 
   // console.log(random);
   // let buttonY = e.clientY;
