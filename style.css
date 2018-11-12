@@ -63,11 +63,11 @@ form {
 .gif.active {
   position: fixed;
   justify-content: center;
-  background-image: url(https://media.giphy.com/media/6oB3X3W6MYM3C/giphy.gif);
+  background-image: url(https://media.giphy.com/media/XEiTHRpzJWi9G/giphy.gif);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 500px;
+  width: 750px;
   height: 500px;
   z-index: 2;
 }
