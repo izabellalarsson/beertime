@@ -9,6 +9,7 @@ body {
   height: 100vh;
   font-family: 'Helvetica';
   flex-direction: column;
+  background-color: #fff;
 }
 
 h2 {
@@ -76,13 +77,18 @@ h2.move {
 }
 
 .reset {
-  width: 150px;
+  position: fixed;
+  width: 80px;
   height: 40px;
-  font-size: 20px;
+  font-size: 12pt;
   background-color: dodgerblue;
   border: dodgerblue;
-  border-radius: 20px;
-  box-shadow: 3px 3px 10px black;
+  top: -40px;
+  transition: .5s;
+}
+
+.reset.active {
+  top: 2px;
 }
 
 .reset-box {
