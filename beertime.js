@@ -1,6 +1,5 @@
 'use strict'
 
-
 const yesButton = document.querySelector('.yes-button');
 const noButton = document.querySelector('.no-button');
 const gif = document.querySelector('.gif');
@@ -19,4 +18,5 @@ noButton.addEventListener('click', (e) => {
 
   gif.classList.add('active');
   h2.classList.add('move');
+  resetBth.classList.add('active');
 })
